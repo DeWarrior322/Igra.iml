@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:id="@+id/textPartA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textPartB"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"/>
+        </GridLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <Button
+                android:id="@+id/buttonChoice1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"/>
+            <Button
+                android:id="@+id/buttonChoice2"
+                android:layout_marginStart="20dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/buttonChoice3"
+                android:layout_marginStart="20dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:id="@+id/textScore"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/textLevel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"/>
+        </GridLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
