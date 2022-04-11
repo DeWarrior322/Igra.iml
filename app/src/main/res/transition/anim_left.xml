@@ -4,10 +4,12 @@
     <translate
         android:fillEnable = "true"
         android:duration = "300"
-        android:fromXDelta = "2000"
+        android:fromXDelta = "-1000"
         android:fromYDelta = "0"
         android:toxDelta = "0"
-        android:toYDelata = "0"></translate>
+        android:toYDelata = "0"
+
+    />
 
 
 
